@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p><?php echo $lang['popup_successlogin_title']; ?></p>
         <p><?php echo $lang['popup_successlogin_welcome']; ?> <?php output_username_only(); ?></p> 
         
-        <button onclick="closeLoginPopup()">OK</button>
+        <button class="basic-button" onclick="closeLoginPopup()">OK</button>
     </div>
 </div>
 <!-- PopUp success login -->
@@ -84,7 +84,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <div class="signup-popup-content">
             <p><?php echo $lang['popup_signup_title']; ?></p>
             <p><?php echo $lang['popup_signup_welcome']; ?></p> 
-            <button onclick="closeSignupPopup()">OK</button>
+            <button class="basic-button" onclick="closeSignupPopup()">OK</button>
         </div>
     </div>
 <!-- PopUp succes signup -->
@@ -93,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div id="successUpdatePopup" class="update-popup">
         <div class="update-popup-content">
             <p><?php echo $lang['popup_success_update']; ?></p>
-            <a href="userprofile.php?lang=<?php echo $lang_code; ?>"><button onclick="closeUpdateSuccessPopup()"><?php echo $lang['popup_success_btn']; ?></button></a>
+            <a href="userprofile.php?lang=<?php echo $lang_code; ?>"><button class="basic-button" onclick="closeUpdateSuccessPopup()"><?php echo $lang['popup_success_btn']; ?></button></a>
         </div>
     </div>
 <!-- PopUp success update -->

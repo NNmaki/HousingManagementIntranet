@@ -42,6 +42,7 @@ require_once 'includes/login_view.inc.php';
         <p>
         <p><strong>Attention!</strong></p>  <p>This is not a real-life solution, this is a practice project made for educational purposes. The information submitted via the form will not be processed in any way. However, please do not submit any real personal information.
         This website also uses cookies to manage sessions, but they are not collected or used further.</p><br>
+        <button class="basic-button" id="close-disc-btn" onclick="closePopupDisc()" >OK</button>
         <p><strong>Huomio!</strong></p><p>Tämä ei ole oikea yritys eikä sovellus, vaan opiskelutarkoituksessa tehty harjoitustyö. Lomakkeella jätettyjä tietoja ei käsitellä millään tavalla. Älä kuitenkaan jätä lomakkeella salasanoja tai oikeita henkilötietojasi.<br>
         Tämä sivusto käyttää myös evästeitä hallinnoimaan istuntoja, mutta niitä ei kerätä eikä käytetä jatkossa.</p>
         <button class="basic-button" id="close-disc-btn" onclick="closePopupDisc()" >OK</button>
@@ -54,7 +55,7 @@ require_once 'includes/login_view.inc.php';
     <div class="popup-content">
         <p id="popup-message"></p>
         <p id="popup-message-content"></p>
-        <button class="close-btn" id="close-btn" onclick="closePopup()"><?php echo $lang['popup_message_closebtn']; ?></button>
+        <button class="basic-button" id="close-btn" onclick="closePopup()"><?php echo $lang['popup_message_closebtn']; ?></button>
     </div>
 </div>
 <!-- PopUp Message sent -->

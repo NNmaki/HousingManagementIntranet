@@ -32,7 +32,7 @@ require_once 'includes/login_view.inc.php';
         <p><?php echo $lang['popup_successlogin_title']; ?></p>
         <p><?php echo $lang['popup_successlogin_welcome']; ?> <?php output_username_only(); ?></p> 
         
-        <button onclick="closeLoginPopup()">OK</button>
+        <button class="basic-button" onclick="closeLoginPopup()">OK</button>
     </div>
 </div>
 <!-- PopUp success login -->
@@ -52,7 +52,7 @@ require_once 'includes/login_view.inc.php';
         <div class="signup-popup-content">
             <p><?php echo $lang['popup_signup_title']; ?></p>
             <p><?php echo $lang['popup_signup_welcome']; ?></p> 
-            <button onclick="closeSignupPopup()">OK</button>
+            <button class="basic-button" onclick="closeSignupPopup()">OK</button>
         </div>
     </div>
 <!-- PopUp succes signup -->

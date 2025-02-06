@@ -32,7 +32,7 @@ require_once 'includes/login_view.inc.php';
     <div class="popup-content">
         <p id="popup-message"></p>
         <p id="popup-message-content"></p>
-        <button class="close-btn" id="close-btn" onclick="closePopup()"><?php echo $lang['popup_message_closebtn']; ?></button>
+        <button class="basic-button" id="close-btn" onclick="closePopup()"><?php echo $lang['popup_message_closebtn']; ?></button>
     </div>
 </div>
 <!-- PopUp Message sent -->
