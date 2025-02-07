@@ -5,7 +5,7 @@
 
 ## 💡 Introduction
 
-Hosted in: [https://nnmaki.x10.mx/BablosBiscuitHunt/](https://nnmaki.com/housingmanagementintranet/)
+Hosted in: https://nnmaki.com/housingmanagementintranet/
 
 The goal of this exercise project was to practice the various functions of the PHP programming language and to utilize an SQL database in such a way that data from a web form can be directly saved, retrieved, and modified in the database tables.
 
