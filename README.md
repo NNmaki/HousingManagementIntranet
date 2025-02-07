@@ -22,3 +22,12 @@ During the project, I also practiced PHP's MVC architecture, which separates fun
 All form inputs are sanitized with PHP's built-in htmlspecialchars() function, which cleans the data entered by the user into a safe format. In SQL queries, I used the prepared statements method, where the input is treated as plain data before being saved to the database, which prevents SQL injection.
 
 This project significantly opened up the features of PHP for me, including the server-level functions of the backend language.
+
+## 🔧 Tech talk
+
+Used
+- <b>PHP</b> -Main language for functionality and database connection
+- <b>HTML & CSS</b> -Web layout
+- <b>Javascript</b> -Popup-windows and to confirm actions
+- <b>SQL & PhpMyAdmin</b> -Database 
+- <b>Other tools</b> -Linux/Ubuntu, Visual Studio Code, Git & Github and Gimp
